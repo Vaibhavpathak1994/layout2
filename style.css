@@ -1,0 +1,31 @@
+  
+.labelpadding{
+text-align: center;
+padding-bottom: 20px;
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+button{
+  margin-top: 8px;
+}
+
+footer {
+    margin: 50px 0;
+    padding-left:15px;
+}
+@media (max-width: 340px) {
+
+  .labelpadding {
+    padding-left: 10px;
+}
+ .col-xs-6{
+    width:100%;
+  }
+  }
+  @media (max-width: 190px) {
+    .jumbotron{
+      width: 150%
+    }
+  }
+ 
