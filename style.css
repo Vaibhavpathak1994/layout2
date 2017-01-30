@@ -1,31 +1,40 @@
-  
-.labelpadding{
-text-align: center;
-padding-bottom: 20px;
-}
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-button{
-  margin-top: 8px;
-}
-
-footer {
-    margin: 50px 0;
-    padding-left:15px;
-}
-@media (max-width: 340px) {
-
-  .labelpadding {
-    padding-left: 10px;
-}
- .col-xs-6{
-    width:100%;
-  }
-  }
-  @media (max-width: 190px) {
-    .jumbotron{
-      width: 150%
-    }
-  }
+ #h1{
+  padding-left:20px;
+  padding-top:0px;
+  color:#467dd6;
+  height:70px;
+ }
+ #h2{
+  padding-left:80px;
+  padding-top:-5px;
+  color:white;
+  font-size:40px;
+ }
+ #h3{
+  padding-left:720px;
+  height:63px;
+ }
+ #h4{
+  padding-left:50px; 
+  padding-top:12px;
+  color:#467dd6;
+ }
+ #nav{
+  background-color:#021128;
+  margin-left:80px;
+  margin-right:80px;
+ }
+ #map{
+  width:101%; 
+  height:75%;
+ margin-top: 20px;
+ }
+ /*#img1{
+  height:40%;
+  width:97.5%;
+  margin-left:15px;
+ }
  
+ #img2{
+ height:25%;width:97.5%;margin-left:15px;
+}*/
